@@ -1,0 +1,8 @@
+---
+applications:
+- name: liftcfapp3
+  buildpack: staticfile_buildpack
+  memory: 128M
+  instances: 1
+  host: liftcfapp3
+  domain: mybluemix.net
